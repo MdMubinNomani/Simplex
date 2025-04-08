@@ -1,0 +1,20 @@
+set name = "John doe"
+set age = 56
+set age_married = 30
+set partner_name = "Jane Doe"
+set Married = true
+set years_married = age - age_married
+
+if Married {
+	echo name
+	echo " has been married to "
+	echo partner_name
+	echo " for "
+	echo years_married
+	echo " years.\n"
+}
+else {
+	echo name
+	echo " has not married yet.\n"
+}
+
